@@ -366,16 +366,24 @@ ul.btn li:last-child {
 }
 
 .header {
-     width: 100%;
+     max-width: 100%;
      padding: 30px 30px;
-     border-bottom: #c6cad5 solid 12px;
+     border-bottom: #13110e solid 20px;
      background-color: #13110e;
+     max-height: 202x;
 }
 
 .logo {
-     position: relative;
-     padding-left: 50%;
-     padding-top: 6px;
+     position: absolute;
+     padding-left: 22%;
+     padding-top: 0px;
+     top: -24px;
+}
+.logo-img{
+     border-radius: 7%;
+     width: 100px;
+     height: auto;
+     
 }
 
 .logo::after {
@@ -385,9 +393,9 @@ ul.btn li:last-child {
      height: 110px;
      left: -45px;
      top: -30px;
-     background: url(../images/top_head.png);
-     background-repeat: no-repeat;
-     border-right: #c6cad5 solid 15px;
+     /* background: url(../images/top_head.png);
+     background-repeat: no-repeat; */
+     /* border-right: #c6cad5 solid 15px; */
 }
 
 

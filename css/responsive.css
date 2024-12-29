@@ -89,6 +89,9 @@
     .logo {
         padding-top: 15px;
     }
+    .logo-img{
+        border-radius: 7px;
+   }
     .d_none {
         display: none;
     }
