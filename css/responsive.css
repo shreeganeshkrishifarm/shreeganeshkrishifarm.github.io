@@ -79,6 +79,11 @@
     .d_none {
         display: none;
     }
+    .logo-img{
+        border-radius: 7px;
+        width: 140px;
+        height: 80px;
+   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -91,6 +96,8 @@
     }
     .logo-img{
         border-radius: 7px;
+        width: 140px;
+        height: 80px;
    }
     .d_none {
         display: none;
@@ -195,6 +202,11 @@
         float: left;
         padding-left: 37%;
     }
+    .logo-img{
+        border-radius: 7px;
+        width: 140px;
+        height: 80px;
+   }
     .d_none {
         display: none;
     }

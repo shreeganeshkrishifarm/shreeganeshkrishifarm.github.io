@@ -152,7 +152,7 @@ a,
 
 img {
      max-width: 100%;
-     height: auto;
+     height: 245px;
 }
 
  :focus {
@@ -402,7 +402,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/banner4.jpg);
      background-repeat: no-repeat;
      min-height: 840px;
      background-size: 100% 100%;
@@ -506,7 +506,7 @@ ul.btn li:last-child {
 /** three_box section **/
 
 .three_box {
-     margin-top: -160px;
+     margin-top: 18px;
 }
 
 .box_text {
@@ -543,8 +543,9 @@ ul.btn li:last-child {
 
 .hottest .hottest_box {
      position: relative;
-     background-color: #f4cb1e;
+     background-color: #343020;
      padding: 60px 40px;
+     border-radius: 5px 5px 5px;
 }
 
 .hottest .hottest_box::after {
@@ -566,6 +567,11 @@ ul.btn li:last-child {
      font-size: 17px;
      line-height: 32px;
      font-weight: 500;
+}
+
+.img-icon{
+     width: 100%;
+     height: auto;
 }
 
 
