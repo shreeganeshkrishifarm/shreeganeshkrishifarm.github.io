@@ -9,6 +9,13 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    /* Add responsive styles here */
+    .owner-name{
+        font-size: 28px;
+    }
+  }
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 8px;
