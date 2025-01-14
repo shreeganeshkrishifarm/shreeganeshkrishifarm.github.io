@@ -12,14 +12,14 @@
 @media screen and (max-width: 400px) {
     /* Add responsive styles here */
     .owner-name{
-        font-size: 28px;
+        font-size: 28px !important;
     }
   }
 
   @media screen and (max-width: 360px) {
     /* Add responsive styles here */
     .owner-name{
-        font-size: 28px;
+        font-size: 28px !important;
     }
   }
 
